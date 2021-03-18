@@ -1,10 +1,26 @@
+/* Estilo Geral
+----------------------------*/
+
 * {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: Lato;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +35,35 @@
   border: 1px solid blue;
 }
 
+/* Header
+-------------------------------------*/
+
+/* Banner 
+-----------------------------------------*/
+
+.banner {
+  width: 100%;
+  height: 375px;
+  background: url("banner.png") no-repeat center;
+  background-size: cover;
+}
+
+/* Produtos 
+---------------------------------------*/
+
 .produto {
   width: 25%;
+}
+
+.img-produto {
+  width: 200px;
+  height: 200px;
+  background: url("img1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+/* Footer 
+----------------------------------------*/
+footer {
+  background: gray;
 }
